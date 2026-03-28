@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OnDeckDJ - Walk-Up Music & AI Announcer</title>
+<meta name="description" content="AI-generated voice announcements layered over walk-up songs. Built for baseball and softball teams.">
+<meta name="apple-itunes-app" content="app-id=YOUR_APP_ID">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1a1a1a; }
+
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 48px 24px;
+    background: linear-gradient(165deg, #0a1628 0%, #1a3a5c 40%, #2d6a4f 100%);
+    color: white;
+  }
+
+  .app-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 27px;
+    background: linear-gradient(135deg, #ff6b00, #ff4500);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    margin-bottom: 32px;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+  }
+
+  h1 {
+    font-size: clamp(36px, 6vw, 56px);
+    font-weight: 900;
+    line-height: 1.05;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+  }
+
+  h1 span { color: #4ade80; }
+
+  .tagline {
+    font-size: clamp(16px, 2.5vw, 22px);
+    opacity: 0.8;
+    max-width: 500px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+
+  .cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: white;
+    color: #1a1a1a;
+    text-decoration: none;
+    padding: 16px 36px;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 700;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  }
+  .cta:hover { transform: scale(1.03); }
+  .cta svg { width: 24px; height: 24px; }
+
+  .features {
+    padding: 80px 24px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .features h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 48px;
+    font-weight: 800;
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 32px;
+  }
+
+  .feature {
+    text-align: center;
+    padding: 24px;
+  }
+
+  .feature-icon {
+    font-size: 40px;
+    margin-bottom: 16px;
+  }
+
+  .feature h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .feature p {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  .pricing {
+    padding: 64px 24px;
+    text-align: center;
+    background: #f8f9fa;
+  }
+
+  .pricing h2 { font-size: 32px; margin-bottom: 12px; }
+  .pricing .price { font-size: 48px; font-weight: 900; color: #ff4500; margin: 16px 0; }
+  .pricing .note { color: #666; font-size: 16px; }
+
+  footer {
+    padding: 40px 24px;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+  }
+
+  footer a { color: #666; margin: 0 12px; }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="app-icon">&#9918;</div>
+  <h1>Your Moment.<br><span>Your Music.</span></h1>
+  <p class="tagline">AI-generated voice announcements layered over walk-up songs. Built for baseball and softball coaches, parents, and teams.</p>
+  <a href="https://apps.apple.com/app/ondeckdj" class="cta">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+    Download on the App Store
+  </a>
+</section>
+
+<section class="features">
+  <h2>Everything Your Team Needs</h2>
+  <div class="feature-grid">
+    <div class="feature">
+      <div class="feature-icon">&#127908;</div>
+      <h3>AI Announcer</h3>
+      <p>9 unique AI voices generate custom stadium-style announcements for every player in seconds.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">&#127926;</div>
+      <h3>Walk-Up Songs</h3>
+      <p>Pick songs from Apple Music or import your own MP3s. Music ducks automatically during announcements.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">&#9918;</div>
+      <h3>Game Day Mode</h3>
+      <p>One tap to play each batter's walk-up. Navigate your lineup, control volume, fire sound effects.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">&#127881;</div>
+      <h3>Situational Clips</h3>
+      <p>Strikeout themes, home run songs, 7th inning stretch. Every moment has its music.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">&#128266;</div>
+      <h3>Bluetooth Ready</h3>
+      <p>Optimized for outdoor Bluetooth speakers. No lag, no cutoffs, no dropped connections.</p>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">&#128228;</div>
+      <h3>Share Lineups</h3>
+      <p>Export your full roster and send it to any coach. They import it and the whole team is ready.</p>
+    </div>
+  </div>
+</section>
+
+<section class="pricing">
+  <h2>Go Pro</h2>
+  <div class="price">$5.99</div>
+  <p class="note">One-time purchase. No subscription. Unlimited lineups, 200 voice tokens, record your own voice.</p>
+</section>
+
+<footer>
+  <p>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="support.html">Support</a>
+    <a href="mailto:support@ondeckdj.com">Contact</a>
+  </p>
+  <p style="margin-top: 16px;">&copy; 2026 OnDeckDJ. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OnDeckDJ - Privacy Policy</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h2 { font-size: 20px; margin-top: 32px; color: #333; }
+  .date { color: #666; font-size: 14px; margin-bottom: 32px; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 8px; }
+  a { color: #0066cc; }
+  .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #e0e0e0; font-size: 14px; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="date">Effective: March 27, 2026</p>
+
+<p>OnDeckDJ ("we", "the app") is a walk-up music app for baseball and softball teams. We are committed to protecting your privacy. This policy explains what data the app collects, how it is used, and your rights.</p>
+
+<h2>Data Stored on Your Device Only</h2>
+<p>The following data is stored locally on your device and is never transmitted to any server:</p>
+<ul>
+  <li>Team names, player names, jersey numbers, and batting orders</li>
+  <li>Walk-up song selections (Apple Music references or local MP3 files)</li>
+  <li>Voice recordings you create using the Record feature</li>
+  <li>Generated AI voice announcement audio files (MP3)</li>
+  <li>Situational music clip configurations</li>
+  <li>App settings and preferences</li>
+</ul>
+
+<h2>Data Sent to Third Parties</h2>
+
+<h3>Voice Generation (OpenAI)</h3>
+<p>When you generate an AI voice announcement, the following is sent to our secure proxy server, which forwards it to OpenAI's text-to-speech API:</p>
+<ul>
+  <li>The announcement text (e.g., "Now batting, number 7, Bryce Harper!")</li>
+  <li>The selected voice identifier (e.g., "ash", "onyx")</li>
+</ul>
+<p>No other personal data is included in this request. OpenAI processes the text to generate audio and does not store it. Our proxy server does not log or retain announcement text.</p>
+
+<h3>Token Balance Sync (Cloudflare Workers)</h3>
+<p>To prevent loss of purchased voice tokens, the app syncs your token balance with our server:</p>
+<ul>
+  <li>A randomly generated device identifier (UUID) stored in your device's Keychain</li>
+  <li>Your current voice token balance (a number)</li>
+</ul>
+<p>This device identifier is not linked to your name, email, Apple ID, or any other personal information. It exists solely to associate your token balance with your device.</p>
+
+<h3>Crash Reporting (Sentry)</h3>
+<p>The app uses Sentry for crash reporting. When a crash occurs, Sentry collects:</p>
+<ul>
+  <li>Device type and iOS version</li>
+  <li>Stack trace of the crash</li>
+  <li>App version</li>
+</ul>
+<p>No personal data, player names, or team information is included in crash reports.</p>
+
+<h2>Data NOT Collected</h2>
+<p>OnDeckDJ does <strong>not</strong>:</p>
+<ul>
+  <li>Require an account or login</li>
+  <li>Collect your name, email address, or phone number</li>
+  <li>Access your contacts, photos, or location</li>
+  <li>Display advertisements</li>
+  <li>Use analytics or tracking SDKs</li>
+  <li>Share or sell any data to third parties</li>
+  <li>Track your activity across other apps or websites</li>
+</ul>
+
+<h2>Apple Music</h2>
+<p>If you grant Apple Music access, the app uses MusicKit to search the Apple Music catalog and play songs. The app does not access your listening history, playlists, or Apple Music account information beyond what is needed to search for and play selected songs.</p>
+
+<h2>Microphone</h2>
+<p>If you grant microphone access, it is used exclusively for recording custom voice announcements within the app. Recordings are stored locally on your device and are never uploaded to any server.</p>
+
+<h2>In-App Purchases</h2>
+<p>Purchases are processed entirely by Apple through StoreKit. OnDeckDJ does not receive or store your payment information, Apple ID, or billing details.</p>
+
+<h2>Data Deletion</h2>
+<p>You can delete all app data at any time:</p>
+<ul>
+  <li><strong>In-app:</strong> Settings &gt; Delete My Data — removes all teams, players, voice files, and resets your token balance</li>
+  <li><strong>Device:</strong> Deleting the app removes all locally stored data</li>
+  <li><strong>Server:</strong> The "Delete My Data" option also removes your token balance from our server</li>
+</ul>
+
+<h2>Children's Privacy</h2>
+<p>OnDeckDJ does not knowingly collect personal information from children under 13. The app is designed for coaches, parents, and team managers. Player names entered into the app are stored locally and are only transmitted as part of voice announcement generation text.</p>
+
+<h2>Changes to This Policy</h2>
+<p>We may update this privacy policy from time to time. Changes will be posted on this page with an updated effective date.</p>
+
+<h2>Contact</h2>
+<p>If you have questions about this privacy policy, contact us at:<br>
+<a href="mailto:support@ondeckdj.com">support@ondeckdj.com</a></p>
+
+<div class="footer">
+  &copy; 2026 OnDeckDJ. All rights reserved.
+</div>
+
+</body>
+</html>

@@ -81,6 +81,11 @@
             font-weight: 600;
         }
         .topnav-cta:hover { background: #0077ed; text-decoration: none !important; }
+        .topnav-brand { display: flex; align-items: center; gap: 10px; }
+        .topnav-icon { width: 28px; height: 28px; border-radius: 6px; }
+        .topnav-right { display: flex; align-items: center; gap: 18px; }
+        .topnav-link { color: rgba(255,255,255,0.7) !important; font-size: 0.875rem; font-weight: 500; transition: color 0.15s; }
+        .topnav-link:hover { color: #fff !important; text-decoration: none !important; }
 
         article {
             max-width: 760px;
@@ -184,8 +189,11 @@
 </head>
 <body>
     <nav class="topnav">
-        <a href="/" class="topnav-brand">⚾ OnDeckDJ</a>
-        <a href="https://apps.apple.com/us/app/ondeckdj-walk-up-song-intros/id6761138691" class="topnav-cta">Get the App</a>
+        <a href="/" class="topnav-brand"><img src="/app-icon.png" alt="OnDeckDJ icon" class="topnav-icon">OnDeckDJ</a>
+        <div class="topnav-right">
+            <a href="/blog/" class="topnav-link">← Blog</a>
+            <a href="https://apps.apple.com/us/app/ondeckdj-walk-up-song-intros/id6761138691" class="topnav-cta">Get the App</a>
+        </div>
     </nav>
 
     <article>

@@ -45,6 +45,11 @@
             font-weight: 600;
         }
         .topnav-cta:hover { background: #0077ed; text-decoration: none !important; }
+        .topnav-brand { display: flex; align-items: center; gap: 10px; }
+        .topnav-icon { width: 28px; height: 28px; border-radius: 6px; }
+        .topnav-right { display: flex; align-items: center; gap: 18px; }
+        .topnav-link { color: rgba(255,255,255,0.7) !important; font-size: 0.875rem; font-weight: 500; transition: color 0.15s; }
+        .topnav-link:hover { color: #fff !important; text-decoration: none !important; }
 
         main {
             max-width: 760px;
@@ -112,8 +117,11 @@
 </head>
 <body>
     <nav class="topnav">
-        <a href="/" class="topnav-brand">⚾ OnDeckDJ</a>
-        <a href="https://apps.apple.com/us/app/ondeckdj-walk-up-song-intros/id6761138691" class="topnav-cta">Get the App</a>
+        <a href="/" class="topnav-brand"><img src="/app-icon.png" alt="OnDeckDJ icon" class="topnav-icon">OnDeckDJ</a>
+        <div class="topnav-right">
+            <a href="/" class="topnav-link">← Home</a>
+            <a href="https://apps.apple.com/us/app/ondeckdj-walk-up-song-intros/id6761138691" class="topnav-cta">Get the App</a>
+        </div>
     </nav>
 
     <main>
@@ -121,6 +129,11 @@
         <p class="lede">Song lists, setup guides, and tactical tips for coaches, parents, and team DJs running walk-up music in baseball and softball.</p>
 
         <div class="post-list">
+            <a class="post" href="/blog/best-walk-up-music-apps-2026.html">
+                <div class="post-meta">Updated April 2026 · 7 min read</div>
+                <div class="post-title">Best Baseball Walk-Up Music Apps for 2026 (Honest Comparison)</div>
+                <div class="post-desc">Head-to-head of the top walk-up music apps — BallparkDJ, Walkout Song DJ, Next Batter Up, Lineup DJ, OnDeckDJ. Features, pricing, and a recommendation by team type.</div>
+            </a>
             <a class="post" href="/blog/100-best-baseball-walk-up-songs-2026.html">
                 <div class="post-meta">Updated April 2026 · 8 min read</div>
                 <div class="post-title">100 Best Baseball Walk-Up Songs for 2026 (By Position &amp; Vibe)</div>

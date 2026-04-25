@@ -3,26 +3,71 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>OnDeckDJ - Privacy Policy</title>
+<title>Privacy Policy — OnDeckDJ</title>
+<meta name="description" content="OnDeckDJ privacy policy: what data the walk-up music app collects, how it's used, and your rights. No accounts, no analytics, no ads.">
+<link rel="canonical" href="https://www.ondeckdj.app/privacy-policy.html">
+<link rel="icon" type="image/png" href="/app-icon.png">
+<link rel="apple-touch-icon" href="/app-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 24px; color: #1a1a1a; line-height: 1.6; }
-  h1 { font-size: 28px; margin-bottom: 4px; }
-  h2 { font-size: 20px; margin-top: 32px; color: #333; }
-  .date { color: #666; font-size: 14px; margin-bottom: 32px; }
-  ul { padding-left: 20px; }
-  li { margin-bottom: 8px; }
-  a { color: #0066cc; }
-  .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #e0e0e0; font-size: 14px; color: #666; }
+  :root { --navy:#0d1b2a; --orange-2:#d94d3b; --ink:#0d1b2a; --ink-2:#3d4a5c; --ink-muted:#6b7a8e; --bg:#ffffff; --line:#e6e9ee; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; color:var(--ink); background:var(--bg); line-height:1.65; -webkit-font-smoothing:antialiased; }
+  a { color:var(--orange-2); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  img { max-width:100%; display:block; }
+
+  .nav { position:sticky; top:0; background:rgba(255,255,255,0.85); backdrop-filter:saturate(180%) blur(12px); border-bottom:1px solid var(--line); z-index:50; }
+  .nav-inner { max-width:1180px; margin:0 auto; padding:14px 24px; display:flex; align-items:center; justify-content:space-between; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:800; font-size:17px; color:var(--ink); }
+  .brand img { width:32px; height:32px; border-radius:7px; box-shadow:0 1px 2px rgba(13,27,42,0.12); }
+  .nav-links { display:flex; gap:18px; align-items:center; }
+  .nav-links a { font-size:14px; font-weight:500; color:var(--ink-2); }
+  .nav-links a:hover { color:var(--ink); text-decoration:none; }
+  .nav-cta { background:var(--ink); color:#fff !important; padding:9px 18px; border-radius:10px; font-size:14px; font-weight:600; }
+  .nav-cta:hover { background:#1c2a3d; text-decoration:none; }
+
+  main { max-width:720px; margin:0 auto; padding:60px 24px 80px; }
+  h1 { font-size:clamp(34px,5vw,44px); font-weight:900; letter-spacing:-0.025em; line-height:1.1; margin-bottom:8px; }
+  .effective-date { color:var(--ink-muted); font-size:14px; margin-bottom:32px; }
+  h2 { font-size:22px; font-weight:800; margin:40px 0 12px; letter-spacing:-0.01em; }
+  h3 { font-size:18px; font-weight:700; margin:24px 0 8px; }
+  p { font-size:16px; color:var(--ink-2); margin-bottom:16px; }
+  ul { margin:0 0 20px 24px; }
+  ul li { color:var(--ink-2); margin-bottom:6px; }
+  strong { color:var(--ink); }
+
+  footer { padding:40px 24px 60px; text-align:center; color:var(--ink-muted); font-size:14px; border-top:1px solid var(--line); }
+  footer a { color:var(--ink-2); margin:0 14px; }
 </style>
 </head>
 <body>
 
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="brand">
+      <img src="/app-icon.png" alt="OnDeckDJ icon">
+      OnDeckDJ
+    </a>
+    <div class="nav-links">
+      <a href="/blog/">Blog</a>
+      <a href="/about.html">About</a>
+      <a href="https://apps.apple.com/us/app/ondeckdj-walk-up-song-intros/id6761138691" class="nav-cta">Get the App</a>
+    </div>
+  </div>
+</nav>
+
+<main>
 <h1>Privacy Policy</h1>
-<p class="date">Effective: March 27, 2026</p>
+<p class="effective-date">Effective: March 27, 2026</p>
 
 <p>OnDeckDJ ("we", "the app") is a walk-up music app for baseball and softball teams. We are committed to protecting your privacy. This policy explains what data the app collects, how it is used, and your rights.</p>
 
-<h2>Data Stored on Your Device Only</h2>
+<h2>Data stored on your device only</h2>
 <p>The following data is stored locally on your device and is never transmitted to any server:</p>
 <ul>
   <li>Team names, player names, jersey numbers, and batting orders</li>
@@ -33,9 +78,9 @@
   <li>App settings and preferences</li>
 </ul>
 
-<h2>Data Sent to Third Parties</h2>
+<h2>Data sent to third parties</h2>
 
-<h3>Voice Generation (OpenAI)</h3>
+<h3>Voice generation (OpenAI)</h3>
 <p>When you generate an AI voice announcement, the following is sent to our secure proxy server, which forwards it to OpenAI's text-to-speech API:</p>
 <ul>
   <li>The announcement text (e.g., "Now batting, number 7, Bryce Harper!")</li>
@@ -43,7 +88,7 @@
 </ul>
 <p>No other personal data is included in this request. OpenAI processes the text to generate audio and does not store it. Our proxy server does not log or retain announcement text.</p>
 
-<h3>Token Balance Sync (Cloudflare Workers)</h3>
+<h3>Token balance sync (Cloudflare Workers)</h3>
 <p>To prevent loss of purchased voice tokens, the app syncs your token balance with our server:</p>
 <ul>
   <li>A randomly generated device identifier (UUID) stored in your device's Keychain</li>
@@ -51,7 +96,7 @@
 </ul>
 <p>This device identifier is not linked to your name, email, Apple ID, or any other personal information. It exists solely to associate your token balance with your device.</p>
 
-<h3>Crash Reporting (Sentry)</h3>
+<h3>Crash reporting (Sentry)</h3>
 <p>The app uses Sentry for crash reporting. When a crash occurs, Sentry collects:</p>
 <ul>
   <li>Device type and iOS version</li>
@@ -60,7 +105,7 @@
 </ul>
 <p>No personal data, player names, or team information is included in crash reports.</p>
 
-<h2>Data NOT Collected</h2>
+<h2>Data NOT collected</h2>
 <p>OnDeckDJ does <strong>not</strong>:</p>
 <ul>
   <li>Require an account or login</li>
@@ -78,10 +123,10 @@
 <h2>Microphone</h2>
 <p>If you grant microphone access, it is used exclusively for recording custom voice announcements within the app. Recordings are stored locally on your device and are never uploaded to any server.</p>
 
-<h2>In-App Purchases</h2>
+<h2>In-app purchases</h2>
 <p>Purchases are processed entirely by Apple through StoreKit. OnDeckDJ does not receive or store your payment information, Apple ID, or billing details.</p>
 
-<h2>Data Deletion</h2>
+<h2>Data deletion</h2>
 <p>You can delete all app data at any time:</p>
 <ul>
   <li><strong>In-app:</strong> Settings &gt; Delete My Data — removes all teams, players, voice files, and resets your token balance</li>
@@ -89,19 +134,23 @@
   <li><strong>Server:</strong> The "Delete My Data" option also removes your token balance from our server</li>
 </ul>
 
-<h2>Children's Privacy</h2>
+<h2>Children's privacy</h2>
 <p>OnDeckDJ does not knowingly collect personal information from children under 13. The app is designed for coaches, parents, and team managers. Player names entered into the app are stored locally and are only transmitted as part of voice announcement generation text.</p>
 
-<h2>Changes to This Policy</h2>
+<h2>Changes to this policy</h2>
 <p>We may update this privacy policy from time to time. Changes will be posted on this page with an updated effective date.</p>
 
 <h2>Contact</h2>
-<p>If you have questions about this privacy policy, contact us at:<br>
-<a href="mailto:support@ondeckdj.com">support@ondeckdj.com</a></p>
+<p>If you have questions about this privacy policy, contact us at <a href="mailto:support@ondeckdj.com">support@ondeckdj.com</a>.</p>
+</main>
 
-<div class="footer">
-  &copy; 2026 OnDeckDJ. All rights reserved.
-</div>
+<footer>
+  <a href="/">Home</a>
+  <a href="/blog/">Blog</a>
+  <a href="/about.html">About</a>
+  <a href="/support.html">Support</a>
+  <p style="margin-top:16px;">&copy; 2026 OnDeckDJ. All rights reserved.</p>
+</footer>
 
 </body>
 </html>

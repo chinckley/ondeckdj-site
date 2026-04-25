@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OnDeckDJ — App de Música de Entrada para Béisbol | Locutor IA para Entrenadores</title>
+<meta name="description" content="OnDeckDJ convierte cada turno al bate en un momento de estadio. Canciones de entrada personalizadas, voces de locutor IA y reproducción con un toque para equipos de béisbol y softbol. Hecho para entrenadores, padres y equipos de viajero.">
+<meta name="keywords" content="canciones de entrada beisbol, musica de entrada softbol, app de musica para beisbol, locutor IA, alineacion de bateadores, dj de dugout, beisbol juvenil canciones, equipos viajeros musica">
+<link rel="canonical" href="https://www.ondeckdj.app/es/">
+<link rel="alternate" hreflang="en" href="https://www.ondeckdj.app/">
+<link rel="alternate" hreflang="es" href="https://www.ondeckdj.app/es/">
+<link rel="alternate" hreflang="x-default" href="https://www.ondeckdj.app/">
+<meta name="apple-itunes-app" content="app-id=6761138691">
+<link rel="icon" type="image/png" href="/app-icon.png">
+<link rel="apple-touch-icon" href="/app-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.ondeckdj.app/es/">
+<meta property="og:title" content="OnDeckDJ — App de Música de Entrada para Béisbol">
+<meta property="og:description" content="Convierte cada turno al bate en un momento de estadio. Locutor IA + canciones de entrada con un toque. Para entrenadores, padres y equipos viajeros.">
+<meta property="og:image" content="https://www.ondeckdj.app/og-image.png">
+<meta property="og:locale" content="es_MX">
+<meta property="og:site_name" content="OnDeckDJ">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="OnDeckDJ — Música de Entrada para Béisbol y Softbol">
+<meta name="twitter:description" content="Convierte cada turno al bate en un momento de estadio. Locutor IA + canciones de entrada.">
+<meta name="twitter:image" content="https://www.ondeckdj.app/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "OnDeckDJ: Canciones de Entrada",
+  "operatingSystem": "iOS",
+  "applicationCategory": "SportsApplication",
+  "description": "App de música de entrada para béisbol y softbol con locutor IA, gestión de alineación, y entradas de estadio con un toque.",
+  "inLanguage": "es",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "url": "https://apps.apple.com/us/app/ondeckdj-walk-up-song-intros/id6761138691",
+  "image": "https://www.ondeckdj.app/og-image.png",
+  "publisher": { "@type": "Organization", "name": "OnDeckDJ", "url": "https://www.ondeckdj.app/" }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+  :root { --navy:#0d1b2a; --orange:#ea7c47; --orange-2:#d94d3b; --cream:#fdf6e3; --gold:#f4b942; --ink:#0d1b2a; --ink-2:#3d4a5c; --ink-muted:#6b7a8e; --bg:#ffffff; --bg-soft:#fafbfc; --line:#e6e9ee; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { scroll-behavior: smooth; }
+  body { font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; color:var(--ink); background:var(--bg); line-height:1.55; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+  a { color: inherit; text-decoration: none; }
+  img { max-width: 100%; display: block; }
+
+  .nav { position: sticky; top: 0; background: rgba(255,255,255,0.85); backdrop-filter: saturate(180%) blur(12px); border-bottom: 1px solid var(--line); z-index: 50; }
+  .nav-inner { max-width: 1180px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 17px; color: var(--ink); }
+  .brand img { width: 32px; height: 32px; border-radius: 7px; box-shadow: 0 1px 2px rgba(13,27,42,0.12); }
+  .nav-links { display: flex; gap: 18px; align-items: center; }
+  .nav-links a { font-size: 14px; font-weight: 500; color: var(--ink-2); }
+  .nav-links a:hover { color: var(--ink); }
+  .lang-switch { color: var(--ink-muted) !important; font-size: 13px; }
+  .nav-cta { background: var(--ink); color: #fff !important; padding: 9px 18px; border-radius: 10px; font-size: 14px; font-weight: 600; }
+  .nav-cta:hover { background: #1c2a3d; text-decoration: none; }
+
+  .hero { position: relative; overflow: hidden; background: radial-gradient(1200px 600px at 50% -200px, rgba(234,124,71,0.18), transparent 60%), linear-gradient(180deg, #ffffff 0%, #fafbfc 100%); padding: 80px 24px 40px; }
+  .hero-inner { max-width: 1180px; margin: 0 auto; display: grid; grid-template-columns: 1.05fr 1fr; gap: 60px; align-items: center; }
+  .eyebrow { display: inline-flex; align-items: center; gap: 8px; background: var(--cream); border: 1px solid rgba(234,124,71,0.25); color: var(--orange-2); padding: 6px 14px; border-radius: 999px; font-size: 13px; font-weight: 600; margin-bottom: 20px; }
+  .eyebrow::before { content: '⚾'; font-size: 14px; }
+  .hero h1 { font-size: clamp(36px, 5.5vw, 60px); line-height: 1.04; letter-spacing: -0.025em; font-weight: 900; margin-bottom: 22px; color: var(--ink); }
+  .hero h1 .accent { background: linear-gradient(180deg, var(--orange) 0%, var(--orange-2) 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+  .hero p.lede { font-size: 19px; color: var(--ink-2); margin-bottom: 32px; max-width: 540px; }
+  .hero-cta { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+  .btn-primary { display: inline-flex; align-items: center; gap: 12px; background: var(--ink); color: #fff; padding: 14px 24px; border-radius: 12px; font-size: 15px; font-weight: 600; transition: transform 0.15s, background 0.15s; box-shadow: 0 4px 14px rgba(13,27,42,0.18); }
+  .btn-primary:hover { background: #1c2a3d; transform: translateY(-1px); }
+  .btn-primary svg { width: 22px; height: 22px; }
+  .btn-secondary { color: var(--ink-2); font-weight: 600; font-size: 15px; padding: 14px 4px; border-bottom: 2px solid transparent; }
+  .btn-secondary:hover { color: var(--ink); border-bottom-color: var(--orange); }
+  .hero-meta { display: flex; gap: 24px; margin-top: 28px; font-size: 13px; color: var(--ink-muted); align-items: center; flex-wrap: wrap; }
+  .hero-meta-item { display: flex; align-items: center; gap: 6px; }
+  .hero-meta-item::before { content: '✓'; color: var(--orange); font-weight: 700; }
+  .hero-image-wrap { position: relative; display: flex; justify-content: center; align-items: center; }
+  .hero-image-wrap::before { content: ''; position: absolute; inset: -40px; background: radial-gradient(circle at 50% 50%, rgba(244,185,66,0.18) 0%, transparent 65%); z-index: 0; }
+  .hero-image { position: relative; z-index: 1; width: 100%; max-width: 380px; border-radius: 38px; box-shadow: 0 25px 60px rgba(13,27,42,0.25), 0 8px 20px rgba(13,27,42,0.12); }
+  @media (max-width: 900px) { .hero-inner { grid-template-columns: 1fr; gap: 48px; text-align: center; } .hero-cta { justify-content: center; } .hero-meta { justify-content: center; } .hero p.lede { margin-left: auto; margin-right: auto; } .hero-image-wrap { order: 2; } }
+
+  section.block { padding: 96px 24px; }
+  section.block.dark { background: linear-gradient(180deg, #0d1b2a 0%, #1b3a5c 100%); color: #fff; }
+  section.block.soft { background: var(--bg-soft); }
+  .container { max-width: 1180px; margin: 0 auto; }
+  .section-head { text-align: center; margin-bottom: 56px; }
+  .section-head h2 { font-size: clamp(28px, 4vw, 40px); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; margin-bottom: 14px; }
+  .section-head p { font-size: 18px; color: var(--ink-2); max-width: 600px; margin: 0 auto; }
+  section.block.dark .section-head p { color: rgba(255,255,255,0.75); }
+
+  .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .feature-card { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 30px; transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; }
+  .feature-card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(13,27,42,0.08); border-color: rgba(234,124,71,0.4); }
+  .feature-icon-wrap { width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, var(--orange) 0%, var(--orange-2) 100%); display: inline-flex; align-items: center; justify-content: center; color: #fff; font-size: 22px; margin-bottom: 18px; box-shadow: 0 4px 12px rgba(234,124,71,0.25); }
+  .feature-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 8px; letter-spacing: -0.01em; }
+  .feature-card p { font-size: 15px; color: var(--ink-2); line-height: 1.55; }
+  @media (max-width: 900px) { .features-grid { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 600px) { .features-grid { grid-template-columns: 1fr; } }
+
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+  .step { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08); border-radius: 20px; padding: 32px 28px; }
+  .step-num { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; background: linear-gradient(135deg, var(--orange) 0%, var(--orange-2) 100%); color: #fff; border-radius: 10px; font-weight: 800; font-size: 16px; margin-bottom: 18px; }
+  .step h3 { font-size: 19px; font-weight: 700; margin-bottom: 10px; letter-spacing: -0.01em; }
+  .step p { color: rgba(255,255,255,0.7); font-size: 15px; line-height: 1.6; }
+  @media (max-width: 900px) { .steps { grid-template-columns: 1fr; } }
+
+  .pricing-card { max-width: 480px; margin: 0 auto; background: #fff; border: 1px solid var(--line); border-radius: 24px; padding: 40px; text-align: center; box-shadow: 0 4px 24px rgba(13,27,42,0.06); }
+  .pricing-tier { color: var(--orange-2); font-weight: 700; font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 8px; }
+  .pricing-card h3 { font-size: 32px; font-weight: 800; margin-bottom: 14px; letter-spacing: -0.02em; }
+  .pricing-price { font-size: 56px; font-weight: 900; margin: 14px 0 6px; color: var(--ink); letter-spacing: -0.04em; }
+  .pricing-price span { font-size: 18px; font-weight: 600; color: var(--ink-muted); margin-left: 6px; }
+  .pricing-note { color: var(--ink-muted); font-size: 15px; margin-bottom: 28px; }
+  .pricing-features { list-style: none; padding: 0; margin: 0 0 28px; text-align: left; }
+  .pricing-features li { padding: 10px 0; font-size: 15px; color: var(--ink-2); display: flex; gap: 10px; align-items: flex-start; }
+  .pricing-features li::before { content: '✓'; color: var(--orange); font-weight: 700; flex-shrink: 0; }
+
+  .final-cta { background: linear-gradient(135deg, #0d1b2a 0%, #1b3a5c 50%, #2d1810 100%); color: #fff; text-align: center; padding: 96px 24px; }
+  .final-cta h2 { font-size: clamp(30px, 4.5vw, 44px); font-weight: 900; letter-spacing: -0.025em; line-height: 1.1; margin-bottom: 18px; }
+  .final-cta p { font-size: 18px; color: rgba(255,255,255,0.75); max-width: 540px; margin: 0 auto 36px; }
+  .final-cta .btn-primary { background: #fff; color: var(--ink); }
+  .final-cta .btn-primary:hover { background: var(--cream); }
+
+  footer { padding: 48px 24px 64px; text-align: center; color: var(--ink-muted); font-size: 14px; border-top: 1px solid var(--line); }
+  footer .footer-links { margin-bottom: 16px; }
+  footer .footer-links a { margin: 0 14px; color: var(--ink-2); }
+  footer .footer-links a:hover { color: var(--orange-2); }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/es/" class="brand">
+      <img src="/app-icon.png" alt="OnDeckDJ logo">
+      OnDeckDJ
+    </a>
+    <div class="nav-links">
+      <a href="#features">Funciones</a>
+      <a href="#how-it-works">Cómo funciona</a>
+      <a href="#pricing">Precio</a>
+      <a href="/" class="lang-switch">English ↗</a>
+      <a href="https://apps.apple.com/us/app/ondeckdj-walk-up-song-intros/id6761138691" class="nav-cta">Descargar</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <span class="eyebrow">Hecho para béisbol y softbol</span>
+      <h1>Que cada turno al bate suene como<br><span class="accent">las grandes ligas.</span></h1>
+      <p class="lede">OnDeckDJ une a cada bateador con su canción de entrada y un locutor IA estilo estadio. Un toque el día del juego. Sin complicaciones. Sin suscripción.</p>
+      <div class="hero-cta">
+        <a href="https://apps.apple.com/us/app/ondeckdj-walk-up-song-intros/id6761138691" class="btn-primary">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+          Descargar en App Store
+        </a>
+        <a href="#how-it-works" class="btn-secondary">Ver cómo funciona →</a>
+      </div>
+      <div class="hero-meta">
+        <span class="hero-meta-item">Gratis para empezar</span>
+        <span class="hero-meta-item">Sin suscripción</span>
+        <span class="hero-meta-item">Funciona con bocinas Bluetooth</span>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <img src="/screenshots/game-mode.webp" alt="OnDeckDJ Modo de Juego con controles de un toque" class="hero-image" loading="eager" width="380" height="822">
+    </div>
+  </div>
+</section>
+
+<section class="block" id="features">
+  <div class="container">
+    <div class="section-head">
+      <h2>Todo lo que tu equipo necesita</h2>
+      <p>Flujo de música de entrada nivel pro, diseñado para el papá que maneja la bocina — no para un ingeniero de sonido.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon-wrap">🎙</div>
+        <h3>9 voces de locutor IA</h3>
+        <p>Desde barítono profundo de estadio hasta animador enérgico. Cada jugador con su anuncio personalizado por nombre y número, generado en segundos.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-wrap">🎵</div>
+        <h3>Cualquier canción</h3>
+        <p>Elige canciones de entrada de Apple Music, tu biblioteca local, o importa MP3. Define el punto de inicio para que la canción caiga justo en el coro.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-wrap">⚡</div>
+        <h3>Modo de Juego</h3>
+        <p>Reproducción de un toque por bateador. Botones grandes, encolado automático, ducking de volumen que regresa al instante. Sin complicaciones.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-wrap">🎉</div>
+        <h3>Clips situacionales</h3>
+        <p>Temas de ponche, bocinas de jonrón, momentos de rally. Cada situación tiene un toque. Úsalos con moderación para máximo impacto.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-wrap">🔊</div>
+        <h3>Listo para Bluetooth</h3>
+        <p>Optimizado para bocinas portátiles al aire libre. Sin retraso, volumen inteligente, sin caídas de conexión durante el juego.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon-wrap">📤</div>
+        <h3>Comparte alineaciones</h3>
+        <p>Exporta tu lista completa — canciones, anuncios, configuraciones — y envíasela a cualquier entrenador. La importan con un toque.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block dark" id="how-it-works">
+  <div class="container">
+    <div class="section-head">
+      <h2>De cero a estadio en 15 minutos</h2>
+      <p>Configura la alineación una vez antes del juego. El día del juego, solo das toques.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Arma tu alineación</h3>
+        <p>Agrega jugadores, números de camiseta, y elige una canción de entrada de Apple Music, tu biblioteca, o MP3 importados. Define el punto de inicio para caer en el gancho.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Genera anuncios IA</h3>
+        <p>Toca "Generar" en cada jugador y elige una de las 9 voces de locutor IA. La app crea un anuncio personalizado tipo estadio con su nombre y número.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Toca durante el juego</h3>
+        <p>Conecta tu bocina Bluetooth, abre Modo de Juego, y toca cada bateador cuando se acerque al plato. El locutor suena, la canción entra, el volumen baja para el anuncio, regresa al instante. Eso es todo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="pricing">
+  <div class="container">
+    <div class="section-head">
+      <h2>Precio simple, una sola vez</h2>
+      <p>Gratis para empezar. Actualiza una vez. Sin suscripción. Nunca.</p>
+    </div>
+    <div class="pricing-card">
+      <div class="pricing-tier">Pro</div>
+      <h3>Todo, para siempre</h3>
+      <div class="pricing-price">$5.99<span>una sola vez</span></div>
+      <p class="pricing-note">Sin suscripción. Sin cuenta requerida. Sin truco.</p>
+      <ul class="pricing-features">
+        <li>Equipos y alineaciones ilimitadas</li>
+        <li>200 créditos de voz IA</li>
+        <li>Graba tu propia voz de locutor</li>
+        <li>Compartir e importar alineaciones</li>
+        <li>Todos los efectos de sonido situacionales</li>
+        <li>Actualizaciones gratuitas para siempre</li>
+      </ul>
+      <a href="https://apps.apple.com/us/app/ondeckdj-walk-up-song-intros/id6761138691" class="btn-primary" style="display:inline-flex;">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        Descargar y probar gratis
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <h2>Camina al plato como si lo hubieras hecho mil veces.</h2>
+  <p>Descarga gratis. Configuración en 15 minutos. Que cada turno al bate sea un momento.</p>
+  <a href="https://apps.apple.com/us/app/ondeckdj-walk-up-song-intros/id6761138691" class="btn-primary">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+    Descargar en App Store
+  </a>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a href="/es/">Inicio</a>
+    <a href="/">English</a>
+    <a href="/privacy-policy.html">Privacidad</a>
+    <a href="/support.html">Soporte</a>
+    <a href="mailto:support@ondeckdj.com">Contacto</a>
+  </div>
+  <p>© 2026 OnDeckDJ. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

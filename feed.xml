@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OnDeckDJ Blog — Walk-Up Music Guides</title>
+    <link>https://www.ondeckdj.app/blog/</link>
+    <description>Articles, song lists, and game-day guides for baseball and softball walk-up music, by the OnDeckDJ team.</description>
+    <language>en-us</language>
+    <atom:link href="https://www.ondeckdj.app/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Apr 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>100 Best Baseball Walk-Up Songs for 2026 (By Position &amp; Vibe)</title>
+      <link>https://www.ondeckdj.app/blog/100-best-baseball-walk-up-songs-2026.html</link>
+      <guid>https://www.ondeckdj.app/blog/100-best-baseball-walk-up-songs-2026.html</guid>
+      <pubDate>Fri, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description>A coach's and player's guide to the songs that actually pump up a stadium — organized by hip-hop, country, rock, Latin, power, speed, closer, and youth-friendly categories.</description>
+    </item>
+
+    <item>
+      <title>MLB Walk-Up Songs 2026: What the Pros Are Using</title>
+      <link>https://www.ondeckdj.app/blog/mlb-walk-up-songs-2026.html</link>
+      <guid>https://www.ondeckdj.app/blog/mlb-walk-up-songs-2026.html</guid>
+      <pubDate>Fri, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Trends shaping MLB walk-up music this season, the iconic walk-ups every baseball fan knows, and how to apply pro-level thinking to your team.</description>
+    </item>
+
+    <item>
+      <title>Best Bluetooth Speakers for Baseball &amp; Softball Walk-Up Music (2026 Buyer's Guide)</title>
+      <link>https://www.ondeckdj.app/blog/best-bluetooth-speakers-baseball.html</link>
+      <guid>https://www.ondeckdj.app/blog/best-bluetooth-speakers-baseball.html</guid>
+      <pubDate>Fri, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description>A no-fluff buyer's guide for outdoor speakers — what actually matters, recommendations from $80 to $1,000, and what you can skip.</description>
+    </item>
+
+    <item>
+      <title>How to Record Your Own Walk-Up Announcer Voice</title>
+      <link>https://www.ondeckdj.app/blog/record-your-own-walk-up-announcer-voice.html</link>
+      <guid>https://www.ondeckdj.app/blog/record-your-own-walk-up-announcer-voice.html</guid>
+      <pubDate>Fri, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description>DIY stadium-style intros — equipment, scripts, recording technique, and the 60-second OnDeckDJ shortcut if you don't want to bother with the setup.</description>
+    </item>
+
+    <item>
+      <title>60 Best Walk-Up Songs for Little League &amp; Youth Baseball</title>
+      <link>https://www.ondeckdj.app/blog/youth-baseball-walk-up-songs.html</link>
+      <guid>https://www.ondeckdj.app/blog/youth-baseball-walk-up-songs.html</guid>
+      <pubDate>Fri, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Every song is clean, kid-tested, and gets a Little League dugout fired up. Organized by vibe.</description>
+    </item>
+
+    <item>
+      <title>How to Play Walk-Up Songs at a Baseball Game (Coach's Guide)</title>
+      <link>https://www.ondeckdj.app/blog/how-to-play-walk-up-songs.html</link>
+      <guid>https://www.ondeckdj.app/blog/how-to-play-walk-up-songs.html</guid>
+      <pubDate>Fri, 25 Apr 2026 00:00:00 GMT</pubDate>
+      <description>Speakers, lineup setup, song lengths, volume ducking, and the quick checklist that keeps the workflow from falling apart by the third inning.</description>
+    </item>
+  </channel>
+</rss>

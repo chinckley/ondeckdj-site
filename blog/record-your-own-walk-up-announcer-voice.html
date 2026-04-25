@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Record Your Own Walk-Up Announcer Voice (DIY Stadium Intros)</title>
+    <meta name="description" content="A step-by-step guide to recording your own walk-up announcer voice for baseball or softball. Equipment, scripts, recording tips, post-production — and how to do it in 60 seconds with OnDeckDJ.">
+    <meta name="keywords" content="record walk up announcer, how to record stadium announcement, diy walk up intro, baseball announcer voice recording, how to make walk up music, custom walk up announcement">
+    <link rel="canonical" href="https://www.ondeckdj.app/blog/record-your-own-walk-up-announcer-voice.html">
+    <meta name="apple-itunes-app" content="app-id=6761138691">
+    <link rel="icon" type="image/png" href="/app-icon.png">
+
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.ondeckdj.app/blog/record-your-own-walk-up-announcer-voice.html">
+    <meta property="og:title" content="How to Record Your Own Walk-Up Announcer Voice">
+    <meta property="og:description" content="DIY stadium-style intros. Equipment, scripts, technique, and the 60-second OnDeckDJ workflow.">
+    <meta property="og:image" content="https://www.ondeckdj.app/og-image.png">
+    <meta property="og:site_name" content="OnDeckDJ">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How to Record Your Own Walk-Up Announcer Voice">
+    <meta name="twitter:description" content="A step-by-step DIY guide for stadium-quality walk-up intros at any youth baseball or softball game.">
+    <meta name="twitter:image" content="https://www.ondeckdj.app/og-image.png">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to Record Your Own Walk-Up Announcer Voice",
+      "description": "A guide to recording stadium-quality walk-up announcements for baseball and softball.",
+      "image": "https://www.ondeckdj.app/og-image.png",
+      "totalTime": "PT30M",
+      "step": [
+        { "@type": "HowToStep", "name": "Pick your microphone", "text": "Use a USB condenser microphone or even a smartphone with a foam windscreen for decent results." },
+        { "@type": "HowToStep", "name": "Write the script", "text": "Keep announcements 3-5 seconds long. Format: 'Now batting, number [X], [first] [last name]'." },
+        { "@type": "HowToStep", "name": "Record the take", "text": "Speak from the diaphragm, project, and exaggerate slightly. Record multiple takes per player." },
+        { "@type": "HowToStep", "name": "Process the audio", "text": "Trim silence, normalize volume, optionally add reverb to simulate stadium ambience." },
+        { "@type": "HowToStep", "name": "Import into OnDeckDJ", "text": "Use the in-app recording feature or import your processed file as the announcer audio for each player." }
+      ]
+    }
+    </script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #0a1628; color: #f5f5f7; line-height: 1.7; }
+        a { color: #6ab8ff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .topnav { display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; background: rgba(10,22,40,0.9); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255,255,255,0.08); position: sticky; top: 0; z-index: 10; }
+        .topnav-brand { display: flex; align-items: center; gap: 10px; font-weight: 700; color: #fff; font-size: 1.1rem; }
+        .topnav-icon { width: 28px; height: 28px; border-radius: 6px; }
+        .topnav a { color: #fff; }
+        .topnav-right { display: flex; align-items: center; gap: 18px; }
+        .topnav-link { color: rgba(255,255,255,0.7) !important; font-size: 0.875rem; font-weight: 500; }
+        .topnav-link:hover { color: #fff !important; text-decoration: none !important; }
+        .topnav-cta { background: #0071e3; color: #fff !important; padding: 8px 16px; border-radius: 8px; font-size: 0.875rem; font-weight: 600; }
+        .topnav-cta:hover { background: #0077ed; text-decoration: none !important; }
+        article { max-width: 760px; margin: 0 auto; padding: 40px 24px 80px; }
+        .article-header { margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+        .article-meta { font-size: 0.875rem; color: rgba(255,255,255,0.5); margin-bottom: 12px; }
+        h1 { font-size: 2.25rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 16px; color: #fff; }
+        .lede { font-size: 1.125rem; color: rgba(255,255,255,0.75); }
+        h2 { font-size: 1.625rem; font-weight: 700; margin: 48px 0 16px; color: #fff; letter-spacing: -0.01em; }
+        h3 { font-size: 1.25rem; font-weight: 700; margin: 28px 0 8px; color: #fff; }
+        p { margin-bottom: 18px; color: rgba(255,255,255,0.85); }
+        ol, ul { margin: 0 0 24px 24px; }
+        li { margin-bottom: 10px; color: rgba(255,255,255,0.85); }
+        li strong { color: #fff; }
+        .callout { background: rgba(255,255,255,0.05); border-left: 3px solid #6ab8ff; border-radius: 0 8px 8px 0; padding: 16px 20px; margin: 24px 0; }
+        .step-box { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 20px 24px; margin-bottom: 16px; }
+        .step-box h3 { margin-top: 0; }
+        .step-num { display: inline-block; background: #0071e3; color: #fff; border-radius: 50%; width: 28px; height: 28px; text-align: center; font-weight: 700; line-height: 28px; font-size: 0.85rem; margin-right: 8px; vertical-align: middle; }
+        .script-block { background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 16px 18px; margin: 12px 0 20px; font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size: 0.92rem; color: #e5e9f0; }
+        .cta-box { background: linear-gradient(135deg, rgba(0,113,227,0.15), rgba(45,24,16,0.4)); border: 1px solid rgba(106,184,255,0.25); border-radius: 14px; padding: 24px; margin: 32px 0; text-align: center; }
+        .cta-box h3 { margin-top: 0; font-size: 1.125rem; }
+        .cta-box p { color: rgba(255,255,255,0.75); margin-bottom: 16px; }
+        .cta-box a { display: inline-block; background: #0071e3; color: #fff !important; padding: 12px 24px; border-radius: 10px; font-weight: 600; text-decoration: none !important; }
+        .cta-box a:hover { background: #0077ed; }
+        footer { border-top: 1px solid rgba(255,255,255,0.08); padding: 32px 24px; text-align: center; color: rgba(255,255,255,0.4); font-size: 0.875rem; }
+        @media (max-width: 600px) { h1 { font-size: 1.75rem; } h2 { font-size: 1.375rem; } article { padding: 24px 20px 60px; } }
+    </style>
+</head>
+<body>
+    <nav class="topnav">
+        <a href="/" class="topnav-brand"><img src="/app-icon.png" alt="OnDeckDJ icon" class="topnav-icon">OnDeckDJ</a>
+        <div class="topnav-right">
+            <a href="/blog/" class="topnav-link">← Blog</a>
+            <a href="https://apps.apple.com/us/app/ondeckdj-walk-up-song-intros/id6761138691" class="topnav-cta">Get the App</a>
+        </div>
+    </nav>
+
+    <article>
+        <header class="article-header">
+            <div class="article-meta">Updated April 2026 · 6 min read</div>
+            <h1>How to Record Your Own Walk-Up Announcer Voice</h1>
+            <p class="lede">A practical guide to making stadium-style intros that sound the part — equipment, script formats, recording technique, and a 60-second shortcut if you don't want to bother with the setup.</p>
+        </header>
+
+        <h2>The case for recording it yourself</h2>
+        <p>AI announcer voices have come a long way and are perfectly fine for most teams. But there's a specific reason a coach or parent might want to record their own: <strong>the personal touch matters at the youth level</strong>. A grandparent's voice introducing their grandkid, a coach giving a personalized intro to each player, a teammate recording each other's intros for an end-of-season tournament — these moments carry weight that an AI voice doesn't. They become memories.</p>
+
+        <p>This guide walks you through doing it well. The whole process takes 30-60 minutes for a 12-player roster.</p>
+
+        <h2>The 60-second version (skip the rest if this fits)</h2>
+        <p>If you have OnDeckDJ installed and don't want to deal with audio software:</p>
+        <ol>
+            <li>Open OnDeckDJ → tap any player → tap the announcer voice section.</li>
+            <li>Choose <strong>"Record Your Own"</strong>.</li>
+            <li>Tap record, deliver the announcement (3-5 seconds), tap stop.</li>
+            <li>Trim the silence using the in-app trimmer.</li>
+            <li>Save. Repeat for the rest of the lineup.</li>
+        </ol>
+        <p>That's the easy path. Total time: about 90 seconds per player. The rest of this article is for people who want to do a more polished, studio-quality version that they can use across multiple seasons or share with other coaches.</p>
+
+        <h2>What you actually need</h2>
+
+        <h3>A microphone</h3>
+        <p>You don't need expensive gear, but you do need something better than your laptop's built-in mic. Three tiers:</p>
+        <ul>
+            <li><strong>Tier 1 (free):</strong> An iPhone with a foam pop filter taped over the mic. Recordings are surprisingly good. Use Apple's <em>Voice Memos</em> app, hold the phone 6-8 inches from your mouth, and speak across the mic, not into it.</li>
+            <li><strong>Tier 2 ($60-100):</strong> A USB condenser microphone like the Audio-Technica ATR2100, Samson Q2U, or Blue Yeti Nano. Plug into your laptop, get noticeably cleaner audio, and you can use these for podcasts, online meetings, and other things later.</li>
+            <li><strong>Tier 3 ($200+):</strong> A real podcast or broadcast microphone. Overkill for walk-up announcements unless you're already recording other content.</li>
+        </ul>
+
+        <h3>Recording software</h3>
+        <p>You don't need a paid DAW for this. Three free options that work great:</p>
+        <ul>
+            <li><strong>Voice Memos (iOS/macOS, free, built-in):</strong> Best for the iPhone-mic approach.</li>
+            <li><strong>GarageBand (macOS, free):</strong> Built-in to every Mac. Has a "narration" preset that's perfect for announcements.</li>
+            <li><strong>Audacity (Windows/Mac/Linux, free):</strong> Open-source classic. Slightly clunky UI but does everything you need.</li>
+        </ul>
+
+        <h3>A quiet room</h3>
+        <p>Sound treatment matters more than your mic choice. Record in a closet full of clothes, under a blanket fort, or in a small carpeted room. Avoid: kitchens, bathrooms (too much echo), rooms with hard floors and bare walls. A few seconds of being thoughtful about the room beats $200 of mic upgrades.</p>
+
+        <h2>Writing the script</h2>
+        <p>The format that works best for youth baseball walk-ups:</p>
+
+        <div class="script-block">"Now batting, number twenty-three, Bryce Harper."</div>
+
+        <p>Three components, in this order. Why it works:</p>
+        <ul>
+            <li><strong>"Now batting"</strong> sets the context — the listener knows immediately what kind of announcement this is.</li>
+            <li><strong>"Number [X]"</strong> gives a piece of identifying info that's recognizable from the field. Coaches and umpires use jersey numbers more than names.</li>
+            <li><strong>The player's name comes last.</strong> Always. The name is the emotional payoff and should land at the end so the song can drop after it.</li>
+        </ul>
+
+        <p>Keep it under 5 seconds. Anything longer eats into the song's walk-up window. If you have a player with a long name (e.g., "Alessandra Rodriguez-Fernandez"), shorten the announcement: "Now batting, number 12, Alessandra."</p>
+
+        <div class="callout">
+            <strong>Variations to consider:</strong> "Coming to the plate, your shortstop, number 7, Maya Chen." — adds position. "From Springfield, Missouri, number 4, Tyler Johnson." — adds hometown. Both work for tournament settings; both are slightly long for regular-season games.
+        </div>
+
+        <h2>How to actually deliver the line</h2>
+        <p>This is the part most DIY recordings get wrong. A few rules:</p>
+
+        <h3>1. Project, don't shout</h3>
+        <p>Imagine you're announcing to a crowd of 50 people in an outdoor space — not yelling, but reaching the back row. Speak from your diaphragm. If you whisper or speak too softly, the recording will need to be amplified post-production, which adds noise.</p>
+
+        <h3>2. Pause where the punctuation pauses</h3>
+        <p>Stadium announcers naturally drop a beat between each phrase: "Now batting... [pause]... number twenty-three... [pause]... Bryce Harper." The pauses give the words weight and let the listener process each piece of info.</p>
+
+        <h3>3. Stretch the name</h3>
+        <p>The single most-recognizable trait of stadium announcing is the elongated final syllable on the last name. "Bryce HAR-PER," with emphasis and length on the last syllable. Try a recording without it, then with it. The difference is dramatic.</p>
+
+        <h3>4. Record multiple takes</h3>
+        <p>Don't try to nail the announcement in one take. Record 3-5 versions of each player's intro, then pick the best one. Different intonations work differently for different songs — having options means you can match the announcement to the song's energy.</p>
+
+        <h3>5. Stay consistent across players</h3>
+        <p>If you say "Now batting" for one player, say "Now batting" for every player. If you stretch the name on one, stretch the name on all. Inconsistency in the announcement style is more jarring than any individual flaw in a single recording.</p>
+
+        <h2>Post-production: trimming and polishing</h2>
+
+        <div class="step-box">
+            <h3><span class="step-num">1</span>Trim silence at the start and end</h3>
+            <p>Every recording needs the dead space at the beginning and end removed. The announcement should start within 0.1 seconds of audio playback and end immediately after the final word. In Audacity or GarageBand, this is just selecting the silence and pressing delete.</p>
+        </div>
+
+        <div class="step-box">
+            <h3><span class="step-num">2</span>Normalize volume</h3>
+            <p>Use the "Normalize" or "Compressor" effect in your software. Target -3 dB peak level. This makes sure all your announcements play at consistent volume — without it, one will sound loud and the next quiet.</p>
+        </div>
+
+        <div class="step-box">
+            <h3><span class="step-num">3</span>(Optional) Add light reverb</h3>
+            <p>Stadium announcements have a tiny bit of echo because they're playing through a PA in an open space. To simulate this, add a "small room" or "stadium" reverb at low intensity (about 10-15% wet). Don't overdo it — too much reverb sounds like a school auditorium recording, not a major league ballpark.</p>
+        </div>
+
+        <div class="step-box">
+            <h3><span class="step-num">4</span>(Optional) High-pass filter</h3>
+            <p>Cut everything below 80 Hz with a high-pass filter. This removes low-end rumble (HVAC, room hum, traffic noise) without affecting the voice. Most recording software has this as a one-click effect.</p>
+        </div>
+
+        <div class="step-box">
+            <h3><span class="step-num">5</span>Export as MP3 or WAV</h3>
+            <p>Export each player's announcement as a separate file. MP3 at 192 kbps is fine for walk-up audio. Name the files clearly: <code>announcement_harper_23.mp3</code>, <code>announcement_chen_7.mp3</code>, etc.</p>
+        </div>
+
+        <div class="cta-box">
+            <h3>Skip the setup. Use OnDeckDJ's built-in recording.</h3>
+            <p>Tap, talk, trim. Same end result, none of the audio engineering. Free to start.</p>
+            <a href="https://apps.apple.com/us/app/ondeckdj-walk-up-song-intros/id6761138691">Get OnDeckDJ on the App Store</a>
+        </div>
+
+        <h2>Importing into OnDeckDJ</h2>
+        <p>Once your recordings are processed, import them into OnDeckDJ:</p>
+        <ol>
+            <li>AirDrop or email each MP3 to your iPhone.</li>
+            <li>Open OnDeckDJ → tap a player → in the announcer section, choose <strong>Custom Audio</strong> instead of an AI voice.</li>
+            <li>Pick the right MP3 from your Files app.</li>
+            <li>Preview to confirm timing. Save.</li>
+        </ol>
+        <p>The custom recording now plays in place of an AI announcer — same volume ducking, same Game Mode flow, same one-tap experience. The only difference is that it's <em>your</em> voice.</p>
+
+        <h2>Common mistakes to avoid</h2>
+        <ul>
+            <li><strong>Recording in a noisy room.</strong> A fan running, traffic outside, a dishwasher in the kitchen — every background sound shows up in the final recording. Pick the quietest possible space.</li>
+            <li><strong>Mouth too close to the mic.</strong> Causes "plosives" (the popping sound on P and B sounds) and breath noise. Stay 6-8 inches away.</li>
+            <li><strong>Trying to imitate a real announcer.</strong> Be enthusiastic, not theatrical. Forced delivery sounds worse than natural delivery.</li>
+            <li><strong>Skipping the trim step.</strong> A half-second of silence before the announcement starts ruins the timing of the walk-up.</li>
+            <li><strong>Recording all 12 players in one take.</strong> Take a break between each. Voice fatigue makes the later announcements sound flatter.</li>
+        </ul>
+
+        <h2>More walk-up music guides</h2>
+        <ul>
+            <li><a href="/blog/how-to-play-walk-up-songs.html">How to Play Walk-Up Songs at a Baseball Game</a> — full game-day setup tutorial</li>
+            <li><a href="/blog/100-best-baseball-walk-up-songs-2026.html">100 Best Baseball Walk-Up Songs for 2026</a> — full song list</li>
+            <li><a href="/blog/youth-baseball-walk-up-songs.html">60 Best Walk-Up Songs for Little League</a> — clean youth picks</li>
+        </ul>
+    </article>
+
+    <footer>
+        <p>© 2026 OnDeckDJ · <a href="/">Home</a> · <a href="/blog/">Blog</a> · <a href="/privacy-policy.html">Privacy</a></p>
+    </footer>
+</body>
+</html>

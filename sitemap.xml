@@ -63,6 +63,14 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.ondeckdj.app/es/" xmlns:xhtml="http://www.w3.org/1999/xhtml"/>
   </url>
   <url>
+    <loc>https://www.ondeckdj.app/es/blog/100-mejores-canciones-de-entrada-beisbol-2026.html</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ondeckdj.app/blog/100-best-baseball-walk-up-songs-2026.html" xmlns:xhtml="http://www.w3.org/1999/xhtml"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ondeckdj.app/es/blog/100-mejores-canciones-de-entrada-beisbol-2026.html" xmlns:xhtml="http://www.w3.org/1999/xhtml"/>
+  </url>
+  <url>
     <loc>https://www.ondeckdj.app/privacy-policy.html</loc>
     <lastmod>2026-04-25</lastmod>
     <changefreq>yearly</changefreq>

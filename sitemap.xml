@@ -20,9 +20,11 @@
   </url>
   <url>
     <loc>https://www.ondeckdj.app/blog/youth-baseball-walk-up-songs.html</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ondeckdj.app/blog/youth-baseball-walk-up-songs.html" xmlns:xhtml="http://www.w3.org/1999/xhtml"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ondeckdj.app/es/blog/canciones-de-entrada-beisbol-juvenil.html" xmlns:xhtml="http://www.w3.org/1999/xhtml"/>
   </url>
   <url>
     <loc>https://www.ondeckdj.app/blog/how-to-play-walk-up-songs.html</loc>
@@ -32,9 +34,11 @@
   </url>
   <url>
     <loc>https://www.ondeckdj.app/blog/mlb-walk-up-songs-2026.html</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-05-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ondeckdj.app/blog/mlb-walk-up-songs-2026.html" xmlns:xhtml="http://www.w3.org/1999/xhtml"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ondeckdj.app/es/blog/canciones-de-entrada-mlb-2026.html" xmlns:xhtml="http://www.w3.org/1999/xhtml"/>
   </url>
   <url>
     <loc>https://www.ondeckdj.app/blog/record-your-own-walk-up-announcer-voice.html</loc>
@@ -69,6 +73,22 @@
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.ondeckdj.app/blog/100-best-baseball-walk-up-songs-2026.html" xmlns:xhtml="http://www.w3.org/1999/xhtml"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.ondeckdj.app/es/blog/100-mejores-canciones-de-entrada-beisbol-2026.html" xmlns:xhtml="http://www.w3.org/1999/xhtml"/>
+  </url>
+  <url>
+    <loc>https://www.ondeckdj.app/es/blog/canciones-de-entrada-beisbol-juvenil.html</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ondeckdj.app/blog/youth-baseball-walk-up-songs.html" xmlns:xhtml="http://www.w3.org/1999/xhtml"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ondeckdj.app/es/blog/canciones-de-entrada-beisbol-juvenil.html" xmlns:xhtml="http://www.w3.org/1999/xhtml"/>
+  </url>
+  <url>
+    <loc>https://www.ondeckdj.app/es/blog/canciones-de-entrada-mlb-2026.html</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.ondeckdj.app/blog/mlb-walk-up-songs-2026.html" xmlns:xhtml="http://www.w3.org/1999/xhtml"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.ondeckdj.app/es/blog/canciones-de-entrada-mlb-2026.html" xmlns:xhtml="http://www.w3.org/1999/xhtml"/>
   </url>
   <url>
     <loc>https://www.ondeckdj.app/privacy-policy.html</loc>

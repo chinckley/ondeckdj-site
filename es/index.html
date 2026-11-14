@@ -132,6 +132,18 @@
   footer .footer-links { margin-bottom: 16px; }
   footer .footer-links a { margin: 0 14px; color: var(--ink-2); }
   footer .footer-links a:hover { color: var(--orange-2); }
+  .listen { padding: 8px 24px 0; }
+  .listen-inner { max-width: 1180px; margin: 0 auto; background: var(--cream); border: 1px solid rgba(234,124,71,0.25); border-radius: 22px; padding: 30px 30px 32px; }
+  .listen-head { margin-bottom: 20px; }
+  .listen-head h2 { font-size: 24px; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 4px; }
+  .listen-head p { font-size: 15px; color: var(--ink-2); }
+  .listen-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .listen-card { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 18px 18px 16px; }
+  .listen-card figcaption { margin-bottom: 12px; }
+  .listen-card strong { display: block; font-size: 16px; font-weight: 700; letter-spacing: -0.01em; }
+  .listen-card span { display: block; font-size: 14px; color: var(--ink-2); }
+  .listen-card audio { display: block; width: 100%; height: 40px; }
+  @media (max-width: 900px) { .listen-grid { grid-template-columns: 1fr; } .listen-inner { padding: 24px 20px; } }
 </style>
 </head>
 <body>
@@ -173,6 +185,29 @@
     </div>
     <div class="hero-image-wrap">
       <img src="/screenshots/game-mode.webp" alt="OnDeckDJ Modo de Juego con controles de un toque" class="hero-image" loading="eager" width="380" height="822">
+    </div>
+  </div>
+</section>
+
+<section class="listen" id="listen">
+  <div class="listen-inner">
+    <div class="listen-head">
+      <h2>Escucha al locutor</h2>
+      <p>Tres de las voces de locutor IA, tal como suenan en la app. Las muestras están en inglés; la app también anuncia en español. Tus jugadores reciben su propio nombre y número.</p>
+    </div>
+    <div class="listen-grid">
+      <figure class="listen-card">
+        <figcaption><strong>The Closer</strong><span>Energía total. La voz predeterminada.</span></figcaption>
+        <audio controls preload="none" src="/audio/announcer-closer.mp3">Tu navegador no puede reproducir audio.</audio>
+      </figure>
+      <figure class="listen-card">
+        <figcaption><strong>The Veteran</strong><span>Grave, firme y tranquila.</span></figcaption>
+        <audio controls preload="none" src="/audio/announcer-veteran.mp3">Tu navegador no puede reproducir audio.</audio>
+      </figure>
+      <figure class="listen-card">
+        <figcaption><strong>The Firecracker</strong><span>Brillante y con chispa.</span></figcaption>
+        <audio controls preload="none" src="/audio/announcer-firecracker.mp3">Tu navegador no puede reproducir audio.</audio>
+      </figure>
     </div>
   </div>
 </section>

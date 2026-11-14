@@ -81,6 +81,14 @@
     },
     {
       "@type": "Question",
+      "name": "Is there an Android or iPad version?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not today. OnDeckDJ is an iPhone app with an Apple Watch remote. Parents who join a shared team through Team Link need an iPhone too."
+      }
+    },
+    {
+      "@type": "Question",
       "name": "Is it just for baseball?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -340,8 +348,65 @@
     .hero-inner { grid-template-columns: 1fr; gap: 48px; text-align: center; }
     .hero-cta { justify-content: center; }
     .hero-meta { justify-content: center; flex-wrap: wrap; }
+    .hero-rating { justify-content: center; }
     .hero p.lede { margin-left: auto; margin-right: auto; }
     .hero-image-wrap { order: 2; }
+  }
+
+  /* ============= RATING + PLATFORM ============= */
+  .hero-rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ink-2);
+  }
+  .hero-rating .star { color: var(--gold); font-size: 17px; line-height: 1; }
+  .hero-rating:hover { color: var(--ink); }
+  .hero-platform {
+    margin-top: 14px;
+    font-size: 13px;
+    color: var(--ink-muted);
+  }
+
+  /* ============= LISTEN (ANNOUNCER SAMPLES) ============= */
+  .listen { padding: 8px 24px 0; }
+  .listen-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    background: var(--cream);
+    border: 1px solid rgba(234,124,71,0.25);
+    border-radius: 22px;
+    padding: 30px 30px 32px;
+  }
+  .listen-head { margin-bottom: 20px; }
+  .listen-head h2 {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 4px;
+  }
+  .listen-head p { font-size: 15px; color: var(--ink-2); }
+  .listen-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .listen-card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 18px 18px 16px;
+  }
+  .listen-card figcaption { margin-bottom: 12px; }
+  .listen-card strong { display: block; font-size: 16px; font-weight: 700; letter-spacing: -0.01em; }
+  .listen-card span { display: block; font-size: 14px; color: var(--ink-2); }
+  .listen-card audio { display: block; width: 100%; height: 40px; }
+  @media (max-width: 900px) {
+    .listen-grid { grid-template-columns: 1fr; }
+    .listen-inner { padding: 24px 20px; }
   }
 
   /* ============= LOGO BAR / SOCIAL PROOF ============= */
@@ -815,14 +880,40 @@
         </a>
         <a href="#how-it-works" class="btn-secondary">See how it works →</a>
       </div>
+      <a href="https://apps.apple.com/us/app/ondeckdj-walk-up-song-intros/id6761138691?ct=home" class="hero-rating" aria-label="Rated 4.7 out of 5 on the App Store"><span class="star" aria-hidden="true">★</span> 4.7 on the App Store</a>
       <div class="hero-meta">
         <span class="hero-meta-item">Free to start</span>
         <span class="hero-meta-item">No subscription</span>
         <span class="hero-meta-item">Works with Bluetooth speakers</span>
       </div>
+      <p class="hero-platform">For iPhone, with an Apple Watch remote. There is no Android or iPad version today.</p>
     </div>
     <div class="hero-image-wrap">
       <img src="/screenshots/game-mode.webp" alt="OnDeckDJ Game Mode showing one-tap walk-up controls" class="hero-image" loading="eager" width="380" height="822">
+    </div>
+  </div>
+</section>
+
+<!-- ANNOUNCER SAMPLES -->
+<section class="listen" id="listen">
+  <div class="listen-inner">
+    <div class="listen-head">
+      <h2>Hear the announcer</h2>
+      <p>Three of the 10 AI announcer voices. These are the preview samples from the app. Your players get their own name and number.</p>
+    </div>
+    <div class="listen-grid">
+      <figure class="listen-card">
+        <figcaption><strong>The Closer</strong><span>Full hype. The default voice.</span></figcaption>
+        <audio controls preload="none" src="/audio/announcer-closer.mp3">Your browser does not support audio playback.</audio>
+      </figure>
+      <figure class="listen-card">
+        <figcaption><strong>The Veteran</strong><span>Deep, steady and calm.</span></figcaption>
+        <audio controls preload="none" src="/audio/announcer-veteran.mp3">Your browser does not support audio playback.</audio>
+      </figure>
+      <figure class="listen-card">
+        <figcaption><strong>The Firecracker</strong><span>Bright and snappy.</span></figcaption>
+        <audio controls preload="none" src="/audio/announcer-firecracker.mp3">Your browser does not support audio playback.</audio>
+      </figure>
     </div>
   </div>
 </section>
@@ -1067,6 +1158,32 @@
         <div class="blog-card-desc">DIY stadium intros — equipment, scripts, technique, and the 60-second OnDeckDJ shortcut.</div>
       </a>
     </div>
+
+    <h2>Set it up for your kind of team</h2>
+    <p>Short guides for the age group, league and job you actually have:</p>
+    <div class="blog-grid">
+      <a class="blog-card" href="/guides/softball-walk-up-song-app.html">
+        <div class="blog-card-tag">Softball</div>
+        <div class="blog-card-title">Softball Walk-Up Song App</div>
+        <div class="blog-card-desc">Fastpitch setup: short clips, the pitcher's song, and tournament weekends.</div>
+      </a>
+      <a class="blog-card" href="/guides/little-league-walk-up-music-app.html">
+        <div class="blog-card-tag">Rec ball</div>
+        <div class="blog-card-title">Walk-Up Music App for Little League Teams</div>
+        <div class="blog-card-desc">A volunteer coach's plan, from asking the league to opening day.</div>
+      </a>
+      <a class="blog-card" href="/guides/travel-ball-walk-up-music-app.html">
+        <div class="blog-card-tag">Travel ball</div>
+        <div class="blog-card-title">Walk-Up Music App for Travel Ball</div>
+        <div class="blog-card-desc">Several games a weekend, shared fields, guest players and battery life.</div>
+      </a>
+      <a class="blog-card" href="/guides/walk-up-music-one-phone-bluetooth-speaker.html">
+        <div class="blog-card-tag">Game day</div>
+        <div class="blog-card-title">One Phone and a Bluetooth Speaker</div>
+        <div class="blog-card-desc">Pairing, placement, phone settings and what to do when it cuts out.</div>
+      </a>
+    </div>
+    <p><a href="/guides/" style="color: var(--orange-2); font-weight: 600;">See all setup guides →</a></p>
   </div>
 </section>
 
@@ -1092,6 +1209,10 @@
       <details class="faq-item">
         <summary>What are AI announcer voices?</summary>
         <div class="faq-item-body">For each player, OnDeckDJ generates a custom stadium-style announcement using one of 10 AI voices — saying the player's name and number. The announcer plays before the song kicks in, just like a real ballpark. You can also record your own voice if you prefer.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Is there an Android or iPad version?</summary>
+        <div class="faq-item-body">Not today. OnDeckDJ is an iPhone app with an Apple Watch remote. Parents who join a shared team through Team Link need an iPhone too.</div>
       </details>
       <details class="faq-item">
         <summary>Is it just for baseball?</summary>
@@ -1137,6 +1258,7 @@
     <a href="#features">Features</a>
     <a href="#pricing">Pricing</a>
     <a href="/blog/">Blog</a>
+    <a href="/guides/">Guides</a>
     <a href="/about.html">About</a>
     <a href="privacy-policy.html">Privacy</a>
     <a href="support.html">Support</a>

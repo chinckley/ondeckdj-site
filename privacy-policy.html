@@ -63,38 +63,41 @@
 
 <main>
 <h1>Privacy Policy</h1>
-<p class="effective-date">Effective: March 27, 2026</p>
+<p class="effective-date">Effective: November 14, 2026</p>
 
 <p>OnDeckDJ ("we", "the app") is a walk-up music app for baseball and softball teams. We are committed to protecting your privacy. This policy explains what data the app collects, how it is used, and your rights.</p>
 
 <h2>Data stored on your device only</h2>
-<p>The following data is stored locally on your device and is never transmitted to any server:</p>
+<p>The following data is stored locally on your device:</p>
 <ul>
   <li>Team names, player names, jersey numbers, and batting orders</li>
   <li>Walk-up song selections (Apple Music references or local MP3 files)</li>
   <li>Voice recordings you create using the Record feature</li>
-  <li>Generated AI voice announcement audio files (MP3)</li>
+  <li>Generated AI voice announcement audio files</li>
   <li>Situational music clip configurations</li>
   <li>App settings and preferences</li>
 </ul>
 
 <h2>Data sent to third parties</h2>
 
-<h3>Voice generation (OpenAI)</h3>
-<p>When you generate an AI voice announcement, the following is sent to our secure proxy server, which forwards it to OpenAI's text-to-speech API:</p>
+<h3>Voice generation</h3>
+<p>When you generate an AI voice announcement, the following is sent over an encrypted connection to our server and to the AI voice services we use to create the audio:</p>
 <ul>
-  <li>The announcement text (e.g., "Now batting, number 7, Bryce Harper!")</li>
-  <li>The selected voice identifier (e.g., "ash", "onyx")</li>
+  <li>The announcement text (e.g., "Now batting, number 7, Mason Rivera!")</li>
+  <li>The announcer voice you picked</li>
 </ul>
-<p>No other personal data is included in this request. OpenAI processes the text to generate audio and does not store it. Our proxy server does not log or retain announcement text.</p>
+<p>No other personal data is included in this request. The text is used only to create the audio. Our server does not keep announcement text after the audio is made.</p>
 
-<h3>Token balance sync (Cloudflare Workers)</h3>
-<p>To prevent loss of purchased voice tokens, the app syncs your token balance with our server:</p>
+<h3>Voice credit balance</h3>
+<p>So that purchased voice credits are not lost, the app syncs your credit balance with our server:</p>
 <ul>
-  <li>A randomly generated device identifier (UUID) stored in your device's Keychain</li>
-  <li>Your current voice token balance (a number)</li>
+  <li>A randomly generated identifier stored in your Keychain</li>
+  <li>Your current voice credit balance (a number)</li>
 </ul>
-<p>This device identifier is not linked to your name, email, Apple ID, or any other personal information. It exists solely to associate your token balance with your device.</p>
+<p>This identifier is not linked to your name, email, Apple ID, or any other personal information. It exists solely to keep your credit balance with you, including on a new phone.</p>
+
+<h3>Team Link (optional)</h3>
+<p>If you turn on Team Link to share a team with parents or another coach, that team's lineup and announcements are stored in Apple's iCloud so the people you invite can see them. Teams you do not share stay on your device.</p>
 
 <h3>Crash reporting (Sentry)</h3>
 <p>The app uses Sentry for crash reporting. When a crash occurs, Sentry collects:</p>
